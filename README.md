@@ -1,6 +1,6 @@
-# franchise
+
 # NFL Franchise
-**SQL/Python Portfolio Project Report**
+
 
 By Jeremy Jeremiah
 
