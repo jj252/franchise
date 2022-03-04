@@ -35,7 +35,7 @@ delets a player
 ### Steps to run ###
 1. Add all of the files in folder "franchise" to workspace via command palette
 
-2. Use the docker file to build the "franchise" image, then change CMD line to run flask.
+2. Change CMD line in Dockerfile to run flask and use that docker file to build the "franchise" image.
 
 3. Take that franchise image and add it as a base image in docker compose under services
 
