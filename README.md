@@ -1,5 +1,5 @@
 # Sports Franchise App
-**SQL/Python Portfolio Project Report**
+**DeVops Portfolio Project Report**
 
 By Jeremy Jeremiah
 
