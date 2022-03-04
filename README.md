@@ -1,4 +1,4 @@
-# NFL Franchise
+# Sports Franchise App
 **SQL/Python Portfolio Project Report**
 
 By Jeremy Jeremiah
