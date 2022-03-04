@@ -1,0 +1,26 @@
+version: "3.8"
+services:
+    pg:
+        container_name: pg_container
+        image: postgres:13.2-alpine
+        restart: always
+        environment:
+            POSTGRES_USER: postgres
+            POSTGRES_HOST_AUTH_METHOD: trust
+            PGUSER: postgres
+        ports:
+            - "5432:5432"
+        volumes:
+            - "${PWD}/data/franchise/init.sql:/docker-entrypoint-initdb.d/4-init.sql"
+            
+    franchise:
+        container_name: franchise
+        image: projectnewest2
+        restart: always
+        ports:
+            - "5000:5000"
+        depends_on:
+            - pg
+networks:
+    default:
+        name: nunet
