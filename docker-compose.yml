@@ -15,7 +15,7 @@ services:
             
     franchise:
         container_name: franchise
-        image: projectnewest2
+        image: franchise_image
         restart: always
         ports:
             - "5000:5000"
