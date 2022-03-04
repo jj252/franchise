@@ -11,6 +11,7 @@ ENV PYTHONUNBUFFERED=1
 
 # Install pip requirements
 COPY requirements.txt .
+RUN python -m pip install --upgrade pip==21.1.2
 RUN python -m pip install -r requirements.txt
 
 WORKDIR /.
