@@ -15,7 +15,7 @@ services:
             
     franchise:
         container_name: franchise
-        image: franchise_image
+        image: 335476755734.dkr.ecr.us-east-1.amazonaws.com/flask:flask_aws_web
         restart: always
         ports:
             - "5000:5000"
